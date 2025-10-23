@@ -583,21 +583,6 @@ Untuk demo:
 - Your own CV (PDF)
 - Your own Project Report (PDF)
 
-## 🧪 Testing Checklist
-
-Before submission, test:
-
-- [ ] Upload 2 PDFs → get document IDs
-- [ ] Trigger evaluation → get job ID
-- [ ] Check result while processing → status "processing"
-- [ ] Wait 30 seconds
-- [ ] Check result again → status "completed" with scores
-- [ ] Verify cv_match_rate is between 0.0-1.0
-- [ ] Verify project_score is between 1.0-5.0
-- [ ] Verify overall_summary has recommendation
-- [ ] Check logs show no errors
-- [ ] Test with different CVs → consistent scoring
-
 ## 🔒 Error Handling Examples
 
 ### Scenario 1: API Rate Limit (503)
@@ -753,12 +738,3 @@ Dokumentasi lengkap tersedia di folder `docs/`:
 - **[Study Case Submission](./docs/template/study-case-submission.md)** - Submission template
 - **[Project Report](./docs/template/project-report.md)** - Project report example
 
----
-
-## 📄 License
-
-MIT
-
----
-
-**Built for case study evaluation** - Backend Developer Position
